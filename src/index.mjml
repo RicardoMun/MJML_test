@@ -1,11 +1,204 @@
 <mjml>
-    <mj-body>
-        <mj-section>
-            <mj-column>
-                <mj-text>
-                    Hola como
-                </mj-text>
-            </mj-column>
-        </mj-section>
-    </mj-body>
+
+  <mj-head>
+    <mj-attributes>
+
+      <mj-text font-size="20px" font-family="Arial, sans-serif" color="#F8F8F8" />
+      <mj-all font-family="Arial, sans-serif" />
+
+      /* background colors */
+      <mj-class name="bg-yellow" background-color="#EDB900" />
+      <mj-class name="bg-gray" background-color="#EBEBEB" />
+      <mj-class name="bg-white" background-color="#F5F5F5" />
+      <mj-class name="bg-green" background-color="#1A5214" />
+      <mj-class name="bg-brown" background-color="#40220D" />
+
+      /* Font styles */
+      <mj-class name="h1" font-size="26px" line-height="20px" font-weight="800" />
+      <mj-class name="h2" font-size="22px" line-height="12px" font-weight="700" padding="0px" />
+      <mj-class name="p1" font-size="16px" line-height="10px" />
+      <mj-class name="p2" font-size="14px" line-height="5px" />
+      <mj-class name="p3" font-size="10px" line-height="5px" font-weight="bold" />
+
+
+      /* Other attributes */
+      <mj-button background-color="#1A5214" border-radius="30px" font-size="14px" inner-padding="15px" align="center" width="200px" />
+      <mj-text color="#A1480D" align="center">
+        <mj-section padding="35px" />
+
+    </mj-attributes>
+  </mj-head>
+
+  <mj-body>
+
+    /* Nav Section */
+    <mj-section mj-class="bg-white">
+      
+      <mj-column>
+        <mj-image src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\1 Logo.png"
+        alt="Boletín Choco momento" width="85px" padding-top="0px" />
+      </mj-column>
+
+      <mj-column>
+        <mj-image src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\2 Logo Corona.png"
+        alt="Logo Corona chocolate" width="85px" />
+      </mj-column>
+    
+    </mj-section>
+
+    /* Choco actualidad section */
+    <mj-section mj-class="bg-yellow">
+      <mj-column>
+
+        <mj-text mj-class="h1" color="black" padding-top="0px">
+          <span style="padding: 11px 10px 8px; background-color: #40220D; color: #EDB900">CHOCO ACTUALIDAD</span>
+        </mj-text>
+
+        <mj-text mj-class="h2" color="#40220D" font-weight="800" padding-top="12px">
+          <p>¡EXTRA, EXTRA!</p>
+          <p>YA EMPEZÓ</p>
+        </mj-text>
+
+        <mj-image src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\GIF.gif"
+        href="https://www.mesdelchocolate.com/?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign" />
+
+        <mj-text mj-class="p2" color="#40220D">
+          <p>¡Podrás ganar increibles premios</p>
+          <p>entre viajes y Chocoteras!</p>
+        </mj-text>
+
+        <mj-button href="https://www.mesdelchocolate.com/?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign">
+          ¡CONOCE MÁS!
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+    /* Choco tip section */
+    <mj-section mj-class="bg-white">
+      <mj-column>
+
+        <mj-text mj-class="h1" color="black" padding-top="0px">
+          <span style="padding: 11px 80px 8px; background-color: #40220D; color: #EDB900">CHOCO TIP</span>
+        </mj-text>
+
+        <mj-text font-size="30px" line-height="19px" color="#40220D" padding-bottom="0px">
+          <p>Deléitate con estas</p>
+          <p>deliciosas recetas</p>
+        </mj-text>
+
+        <mj-text font-size="16px" line-height="5px" color="#40220D" padding-top="0px">
+          <p>y además suma gramos</p>
+          <p>en el Mes del Chocolate</p>
+        </mj-text>
+
+      </mj-column>
+    </mj-section>
+
+    /* Choco tip image section */
+    <mj-section mj-class="bg-white" padding-left="19px">
+
+      <mj-column>
+        <mj-image src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\Chocolate 1.png"
+         alt="Doble Chocolate" href="https://www.chocolatecorona.com/recetas/doble-chocolate?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign" />
+        
+        <mj-text font-size="16px" line-height="7px" color="#40220D">
+          Doble Chocolate
+        </mj-text>
+
+        <mj-text font-size="12px" line-height="0" font-weight="bold" color="#40220D">
+          (Cocoa Corona y Corona Flash)
+        </mj-text>
+
+      </mj-column>
+
+      <mj-column>
+        <mj-image src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\Chocolate 2.png"
+        alt="Doble Chocolate" href="https://www.chocolatecorona.com/recetas/chocolate-con-masmelos?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign" />
+        
+        <mj-text font-size="16px" line-height="7px" color="#40220D">
+          Chocolate con masmelos
+        </mj-text>
+        <mj-text font-size="12px" line-height="0px" font-weight="bold" color="#40220D">
+          (Cocoa Corona y Corona Flash)
+        </mj-text>
+
+      </mj-column>
+
+    </mj-section>
+
+    /*Next Choco tip section */
+    <mj-section mj-class="bg-white">
+      <mj-column>
+
+        <mj-text mj-class="h2" color="#40220D">
+          ¡HAY MUCHAS MÁS!
+        </mj-text>
+
+        <mj-text mj-class="p2" color="#40220D">
+          Y todas suman gramos en el Mes del Chocolate
+        </mj-text>
+
+        <mj-button href="https://www.chocolatecorona.com/recetas/bebidas?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign">
+          ¡CONÓCELAS AQUÍ!
+        </mj-button>
+
+      </mj-column>
+    </mj-section>
+
+
+    /* Choco promo section */
+    <mj-section mj-class="bg-gray">
+      <mj-column>
+
+        <mj-text mj-class="h1" color="black" padding-top="0px">
+          <span style="padding: 11px 55px 8px; background-color: #40220D; color: #EDB900">CHOCO PROMO</span>
+        </mj-text>
+
+        <mj-text font-size="30px" color="#40220D" line-height="16px">
+          <p>¡La Chocotera sigue en</p>
+          <p> promo con los Combos!</p>
+        </mj-text>
+
+        <mj-text font-size="22px" color="#40220D">
+          *Los <span style="background-color: #EDB900">empaques de productos de bebidas </span> te servirán para <span style="background-color: #EDB900">sumar gramos</span> en el Mes del Chocolate
+        </mj-text>
+        
+        <mj-image padding-right="0px" src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\Chocolatoso.png"
+        href="https://tienda.chocolatecorona.com/combo-chocolatoso/p?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign" />
+
+        <mj-image padding-left="0px" src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\Momentos.png"
+        href="https://tienda.chocolatecorona.com/combo-momentos/p?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign" />
+
+
+        <mj-button href="https://tienda.chocolatecorona.com/chocotera---combos?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign">
+          ¡CONSIGUELOS AQUÍ!
+        </mj-button>
+        
+      </mj-column>
+    </mj-section>
+
+    /* Footer section */
+    <mj-section mj-class="bg-brown">
+
+        <mj-column padding-left="0px">
+            <mj-text mj-class="p2" color="white">
+                <p>¡Ingresa a</p>
+                <a href="https://www.chocolatecorona.com/?utm_source=DB&utm_medium=email&utm_campaign=chocolate_campaign"><span style="font-weight: bold">www.chocolatecorona.com</span></a>
+                <p>para conocer más!</p>
+            </mj-text>
+        </mj-column>
+
+        <mj-column padding-left="0px">
+            <mj-text>
+                <img src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\3 FB.png" alt="Facebook Logo" width="65px" />
+                <img src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\4 IG.png" alt="" width="65px" />
+                <img src="D:\Ricardo\Entrevista Merge\Prueba Merge\Prueba implementación\ELEMENTOS 2\5 TIK.png" alt="" width="65px" />
+            </mj-text>
+            
+        </mj-column>
+
+    </mj-section>
+
+  </mj-body>
 </mjml>
